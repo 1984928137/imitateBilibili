@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2754444 */
+  src: url('iconfont.woff2?t=1630463187126') format('woff2'),
+       url('iconfont.woff?t=1630463187126') format('woff'),
+       url('iconfont.ttf?t=1630463187126') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-toufangcelve-:before {
+  content: "\e63f";
+}
+
+.icon-zhibo:before {
+  content: "\e600";
+  color: skyblue;
+  font-size: x-large;
+}
+
+.icon-zhiboTwo:before {
+  content: "\e600";
+  color: skyblue;
+  font-size: xx-large;
+}
+
+.icon-ketang2:before {
+  content: "\e6fe";
+}
+
+.icon-zhuanlan:before {
+  content: "\e670";
+  color: skyblue;
+  font-size: x-large;
+}
+
+.icon-ge:before {
+  content: "\e606";
+  color: orange;
+  font-size: x-large;
+}
+
+.icon-huodong:before {
+  content: "\e66c";
+  color: orange;
+  font-size: x-large;
+}
+
+.icon-zhuanlan1:before {
+  content: "\e6a9";
+}
+
+.icon-ketang:before {
+  content: "\e61c";
+  color: orange;
+  font-size: x-large;
+}
+
+.icon-tianping:before {
+  content: "\e605";
+  color: skyblue;
+  font-size: x-large;
+}
+
