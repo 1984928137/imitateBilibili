@@ -57,7 +57,9 @@
                 </div>
             </div>
             <div style="display: flex;justify-content: center;">
-                <div></div>
+                <div>
+                    <span>前方高能</span>
+                </div>
                 <div class="totalDiv">
                     <div class="Sto">
                         <ul class="stoDivUl">
