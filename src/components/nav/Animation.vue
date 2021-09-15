@@ -56,24 +56,24 @@
                 </ul>
                 </div>
             </div>
-            <div>
+            <div style="display: flex;justify-content: center;">
                 <div></div>
-                <div>
-                    <div>
-                        <ul>
-                            <li v-for="(item,index) in animationStoOne" :key="index">
+                <div class="totalDiv">
+                    <div class="Sto">
+                        <ul class="stoDivUl">
+                            <li v-for="(item,index) in animationSto" :key="index">
                                 <router-link :to="item.urls">
-                                    <img :src="src" alt="">
+                                    <img :src="item.src" alt="" style="width:200px;heigth:100px;">
                                     <span>{{item.title}}</span>
                                 </router-link>
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <ul>
-                            <li v-for="(item,index) in animationStoTwo" :key="index">
+                    <div class="stoOne">
+                        <ul class="stoOneDivUl">
+                            <li v-for="(item,index) in animationStoOne" :key="index">
                                 <router-link :to="item.urls">
-                                    <img :src="src" alt="">
+                                    <img :src="item.src" alt="" style="width:100px;heigth:60px;">
                                     <span>{{item.title}}</span>
                                 </router-link>
                             </li>
@@ -585,8 +585,8 @@ export default {
             animationNav:[],
             animationCar:[],
             animationSto:[],
-            animationStoOne:[this.animationSto[0],this.animationSto[1],this.animationSto[2],this.animationSto[3],this.animationSto[4]],
-            animationStoTwo:[this.animationSto[5],this.animationSto[6],this.animationSto[7]]
+            animationStoOne:[],
+            // animationStoTwo:[this.animationSto[5],this.animationSto[6],this.animationSto[7]]
         }
     },
     created() {
@@ -601,7 +601,12 @@ export default {
             console.log(err)
         })
         this.$axios.get('/animationSto').then(res =>{
-            this.animationSto = res.data
+            console.log(res.data)
+            let num = res.data
+            this.animationSto = num.slice(0,5)
+            console.log(this.animationSto)
+            this.animationStoOne = num.slice(5)
+            console.log(this.animationStoOne)
         }).catch(err=>{
             console.log(err)
         })
@@ -776,6 +781,40 @@ export default {
     .liveLineUlTwo ul{
         display: flex;
         flex-wrap: wrap;
+    }
+    .stoDivUl{
+        display: flex;
+        /* max-width: ; */
+        /* margin: 5px; */
+    }
+    .Sto{
+        display: flex;
+    }
+    .stoDivUl li {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
+        min-width: 200px;
+        margin: 5px;
+    }
+    .stoOne{
+        display: flex;
+    }
+    .stoOneDivUl{
+        display: flex;
+        max-width: 200px;
+        /* margin: 5px; */
+        flex-wrap: wrap;
+    }
+    .stoOneDivUl li {
+        display: flex;
+        /* flex-wrap: wrap; */
+        max-width: 200px;
+        min-width: 200px;
+        margin: 5px;
+    }
+    .totalDiv{
+        display: flex;
     }
 
 
