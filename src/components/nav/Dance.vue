@@ -585,26 +585,26 @@ export default {
                 {id:'Five',src:'https://img2.baidu.com/it/u=1808298959,3955585912&fm=26&fmt=auto&gp=0.jpg'},
                 {id:"Six",src:'https://img1.baidu.com/it/u=3271844904,868256332&fm=26&fmt=auto&gp=0.jpg'},
             ],
-            animationNav:[],
-            animationCar:[],
-            animationSto:[],
-            animationStoOne:[this.animationSto[0],this.animationSto[1],this.animationSto[2],this.animationSto[3],this.animationSto[4]],
-            animationStoTwo:[this.animationSto[5],this.animationSto[6],this.animationSto[7]]
+            danceNav:[],
+            danceCar:[],
+            danceSto:[],
+            danceStoOne:[],
+            // animationStoTwo:[this.animationSto[5],this.animationSto[6],this.animationSto[7]]
         }
     },
     created() {
         this.$axios.get('/animationNav').then(res =>{
-            this.animationNav = res.data
+            this.danceNav = res.data
         }).catch(err=>{
             console.log(err)
         })
         this.$axios.get('/animationCar').then(res =>{
-            this.animationCar = res.data
+            this.danceCar = res.data
         }).catch(err=>{
             console.log(err)
         })
         this.$axios.get('/animationSto').then(res =>{
-            this.animationSto = res.data
+            this.danceSto = res.data
         }).catch(err=>{
             console.log(err)
         })
