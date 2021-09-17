@@ -1,0 +1,122 @@
+let animationNav = [
+    {src:'http://localhost:4000/images/animation/a1.jpg',title:'【A-SOUL×JOJO】然然的奇妙冒险！',urls:'https://www.bilibili.com/video/BV17Q4y1y7w8?spm_id_from=333.5.0.0'},
+    {src:'http://localhost:4000/images/animation/a2.jpg',title:'雷神也想要变得可爱！！',urls:'https://www.bilibili.com/video/BV1Th411p72j?spm_id_from=333.5.0.0'},
+    {src:'http://localhost:4000/images/animation/a3.jpg',title:'好怪….再看一遍！【魔性剪辑#05】',urls:'https://www.bilibili.com/video/BV1pL411t7Qn?spm_id_from=333.5.0.0'},
+    {src:'http://localhost:4000/images/animation/a4.jpg',title:'POP怠和PIPI幻的日常【怠惰/生命幻象】',urls:'https://www.bilibili.com/video/BV1Dh411H7QJ?spm_id_from=333.5.0.0'},
+    {src:'http://localhost:4000/images/animation/a5.jpg',title:' 𝐂𝐢𝐭𝐲𝐥𝐨𝐯𝐞(𝐫𝐞𝐝)',urls:'https://www.bilibili.com/video/BV1G44y1h7wp?spm_id_from=333.5.0.0'},
+    {src:'http://localhost:4000/images/animation/a6.jpg',title:'【自制动画】我说 三分钟 速通 迪迦奥特曼',urls:'https://www.bilibili.com/video/BV1R341117Js?spm_id_from=333.5.0.0'},
+    
+]
+let animationSto = [
+    {src:'http://localhost:4000/images/animation/animationSto/0.jpg',title:'【初音未来】 「Tell your world」 指挥棒旋转运动捕捉  【MMD】',urls:'http://www.bilibili.com/video/BV1o3411B7jh'},
+    {src:'http://localhost:4000/images/animation/animationSto/1.jpg',title:'「明日方舟x公主连结手书」罗德岛演唱会',urls:'http://www.bilibili.com/video/BV1yP4y1a7ka'},
+    {src:'http://localhost:4000/images/animation/animationSto/2.jpg',title:'石之海全替身面板一览',urls:'http://www.bilibili.com/video/BV1Uw411f7V8'},
+    {src:'http://localhost:4000/images/animation/animationSto/3.jpg',title:'【津田健次郎】声优精分现场：优雅执事&反派大boss&病娇科学家',urls:'http://www.bilibili.com/video/BV1e44y1874t'},
+    {src:'http://localhost:4000/images/animation/animationSto/4.jpg',title:'【kinsen】【原神手书/重云】フォニイ丨伪物',urls:'http://www.bilibili.com/video/BV12h411W7tp'},
+    {src:'http://localhost:4000/images/animation/animationSto/5.jpg',title:'【焦耳刑天\国产特摄】《焦耳刑天》第四集',urls:'http://www.bilibili.com/video/BV1cy4y1V7ms'},
+    {src:'http://localhost:4000/images/animation/animationSto/6.jpg',title:'《明日方舟》动画MV - 浮光',urls:'http://www.bilibili.com/video/BV1SQ4y1h7EP'},
+    {src:'http://localhost:4000/images/animation/animationSto/7.jpg',title:'【EVAxGUNDAM】5.55',urls:'http://www.bilibili.com/video/BV16L4y1Y7WH'},
+]
+let animationCar = [
+    {src:'http://localhost:4000/images/animation/animationCar/0.jpg',title:'你有一份心动安利指南待查收~',urls:'https://www.bilibili.com/blackboard/dokidoki_100.html'},
+    {src:'http://localhost:4000/images/animation/animationCar/1.jpg',title:'冬夏合战结果公开——愿热情，永远燃烧！',urls:'https://www.bilibili.com/blackboard/activity-winterVSSummer1st.html'},
+    {src:'http://localhost:4000/images/animation/animationCar/2.jpg',title:'幻想乡拾遗',urls:'https://www.bilibili.com/video/BV1BQ4y1a7Tf'},
+    {src:'http://localhost:4000/images/animation/animationCar/3.jpg',title:'皮卡丘和可可等你来看电影',urls:'https://www.bilibili.com/blackboard/activity-pokemon-koko.html'},
+]
+let animationMadAmv = [
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV0.jpg',title:'可我已经分不清，你是友情还是错过的爱情',urls:'https://b23.tv/BV1234y1Q7KQ'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV1.jpg',title:'这么明显的邪教应该没有人看了吧',urls:'https://b23.tv/BV1TL411t7oU'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV2.jpg',title:'大概全站的人都会被推送到这个视频吧！',urls:'https://b23.tv/BV1cD4y1d7Fu'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV3.jpg',title:'“每日一遍 防止早恋”',urls:'https://b23.tv/BV1Wq4y1U79o'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV4.jpg',title:'每天一遍，青春无极限！',urls:'https://b23.tv/BV1Kh411W7Yp'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV5.jpg',title:'我猜你们都没见过虎杖悠仁的【领域展开】吧？',urls:'https://b23.tv/BV15Q4y1y7qo'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV6.jpg',title:'【A̶r̶k̶n̶i̶g̶h̶t̶s̶】这盘棋我下得够久了',urls:'https://b23.tv/BV1YQ4y1Y7U9'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV7.jpg',title:'【排球少年｜日中心】大 腿 肌 肉 好 涩｜Till I Collapse',urls:'https://b23.tv/BV1Ef4y1n7sf'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV8.jpg',title:'伊莉雅和士郎 那么甜 你不爱？',urls:'https://b23.tv/BV12q4y1L7hT'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV9.jpg',title:'颜  王  帝  君',urls:'https://b23.tv/BV1oK4y1M76u'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV10.jpg',title:'【伽古拉/舔屏/色气向】进来感受男妈妈的致命魅力',urls:'https://b23.tv/BV1tL4y1a7g3'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMV11.jpg',title:'对和平未来的祈福，象征着希望的可能性之兽[机动战士高达独角兽/MAD]',urls:'https://b23.tv/BV15v411w7Lq'},
+]
+let animationMadAmvTwo = [
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/0.jpg',title:'这点赞要是过五百，我直接手抄评论区所有人的ID！！！',urls:'https://b23.tv/BV1yQ4y1r74U'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/1.jpg',title:'【刀剑神域新人剪辑】如同流星一般划过天空的剑士 绀野 木绵季',urls:'https://b23.tv/BV1EP4y1h7pF'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/2.jpg',title:'骨王yyds',urls:'https://b23.tv/BV1rg411c774'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/3.jpg',title:'大喊大叫的日出纪念',urls:'https://b23.tv/BV11R4y1H7RD'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/4.jpg',title:'NEVADA×ELAINA',urls:'https://b23.tv/BV1yQ4y1r7Lp'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/5.jpg',title:'Kill them all',urls:'https://b23.tv/BV1wb4y1m78P'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/6.jpg',title:'风月版宝青坊主-个人向',urls:'https://b23.tv/BV1Hf4y1n7zP'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/7.jpg',title:'⚡这些画面⚡美到窒息',urls:'https://b23.tv/BV1Av411A7J2'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/8.jpg',title:'【游戏人生ZERO】《Stay》休比里克喜欢你呢！旷世之恋，极致卡点~',urls:'https://b23.tv/BV1XU4y1w7He'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/9.jpg',title:'Daling',urls:'https://b23.tv/BV1444y1b7QJ'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/10.jpg',title:'【LoveLive!星团】开启快乐广播体操模式',urls:'https://b23.tv/BV14b4y1y7a8'},
+    {src:'http://localhost:4000/images/animationMADAMV/animationMADAMVTwo/11.jpg',title:'“ 求 亿 个 粉 ④ 。”',urls:'https://b23.tv/BV1a44y1b7hf'},
+]
+let animationMadThreeD = [
+    {src:'http://localhost:4000/images/animationMAD3D2/0.jpg',title:'【原魔】若陀龙王最新待机动画流出',urls:'https://b23.tv/BV1Jq4y1M7ET'},
+    {src:'http://localhost:4000/images/animationMAD3D2/1.jpg',title:'我的深渊法师不可能那么可爱！',urls:'https://b23.tv/BV1KM4y1571y'},
+    {src:'http://localhost:4000/images/animationMAD3D2/2.jpg',title:'【原神MMD】永恒与离别，喜悦与哀愁[雷电将军·影‖EDEN]',urls:'https://b23.tv/BV1Ab4y1m7bw'},
+    {src:'http://localhost:4000/images/animationMAD3D2/3.jpg',title:'【MMD/原神】成男琴团长模型差分（模型测试）',urls:'https://b23.tv/BV1YA411c7QX'},
+    {src:'http://localhost:4000/images/animationMAD3D2/4.jpg',title:'【MMD】from Y to Y【YYB式初音ミク_10th】【4K】【搬运】',urls:'https://b23.tv/BV1xb4y1S7xw'},
+    {src:'http://localhost:4000/images/animationMAD3D2/5.jpg',title:'你从来没有见过的C酱です【MMD/模型配布】',urls:'https://b23.tv/BV11q4y1j7hK'},
+    {src:'http://localhost:4000/images/animationMAD3D2/6.jpg',title:'【4K超宽屏】被迫营业的雷电将军到处放电',urls:'https://b23.tv/BV12f4y1A75b'},
+    {src:'http://localhost:4000/images/animationMAD3D2/7.jpg',title:'【原神MMD】皆大欢喜/お気に召すまま【散兵 空 万叶 荧 神里绫华】',urls:'https://b23.tv/BV1Ro4y1U7cr'},
+    {src:'http://localhost:4000/images/animationMAD3D2/8.jpg',title:'【光遇MMD】✧想飞奔向前直至宇宙✧drop pop candy',urls:'https://b23.tv/BV1bA411F7Tm'},
+    {src:'http://localhost:4000/images/animationMAD3D2/9.jpg',title:'【初音未来】 「Tell your world」 指挥棒旋转运动捕捉  【MMD】',urls:'https://b23.tv/BV1o3411B7jh'},
+    {src:'http://localhost:4000/images/animationMAD3D2/10.jpg',title:'【弱音MMD】弱音：中秋为你而舞！【广寒宫】',urls:'https://b23.tv/BV1mU4y1w76Q'},
+    {src:'http://localhost:4000/images/animationMAD3D2/11.jpg',title:'“我，雷电将军，是个僵尸”',urls:'https://b23.tv/BV1k44y187BJ'},
+]
+let animationMadThreeDTwo = [
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew0.jpg',title:'翻骚的季节❤',urls:'https://b23.tv/BV1u34y1X74F'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew1.jpg',title:'Hi，大家好，我是spline的小宠物Hammy！',urls:'https://b23.tv/BV1tb4y1y7k1'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew2.jpg',title:'“标 题 写 在 封 面 上 了”【MMD/洛天依】',urls:'https://b23.tv/BV1P64y1a7n6'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew3.jpg',title:'【MMD】新模测试~haku--Stay Tonight',urls:'https://b23.tv/BV1RL411x7ng'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew4.jpg',title:'室内设计 CAD图层过滤器的设置',urls:'https://b23.tv/BV1mA411F7vy'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew5.jpg',title:'毕业作品——VFX制作过程',urls:'https://b23.tv/BV1364y1a7Kg'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew6.jpg',title:'【生贺第二弹】【我们仨】三人KINGx三人演唱',urls:'https://b23.tv/BV1e44y1b7nb'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew7.jpg',title:'【MC打斗动画】干  就  完  事  了',urls:'https://b23.tv/BV1Ff4y1P7G3'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew8.jpg',title:'2022年日本工学院CG映像—毕业作品预告',urls:'https://b23.tv/BV1Eq4y1K7fE'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew9.jpg',title:'【原神】快 乐 如 疯',urls:'https://b23.tv/BV1Wb4y1y7Da'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew10.jpg',title:'【钟离/公子MMD】我会带你 前往那混乱的舞台♢宵宵古今♢',urls:'https://b23.tv/BV1rQ4y1k74A'},
+    {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew11.jpg',title:'【崩坏3MMD】符宝蹦迪',urls:'https://b23.tv/BV1Sh411p7Bf'},
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+module.exports = {
+    animationNav: animationNav,
+    animationSto: animationSto,
+    animationCar: animationCar,
+    animationMadAmv: animationMadAmv,
+    animationMadAmvTwo: animationMadAmvTwo,
+    animationMadThreeD: animationMadThreeD,
+    animationMadThreeDTwo: animationMadThreeDTwo,
+}
