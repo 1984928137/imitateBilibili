@@ -339,7 +339,7 @@
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
-                                        <!-- 观看人数 -->
+                                        
                                 </div>
                                 <div class="userTab">
                                    
