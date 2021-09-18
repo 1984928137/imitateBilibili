@@ -74,6 +74,11 @@ router.get('/api/animationMadAmv',async function(ctx,next){
   console.log(animation.animationMadAmv)
   ctx.body = animation.animationMadAmv
 })
+router.get('/api/animationMadAmvPhb',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationMadAmvPhb)
+  ctx.body = animation.animationMadAmvPhb
+})
 router.get('/api/animationMadAmvTwo',async function(ctx,next){
   // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
   console.log(animation.animationMadAmvTwo)
@@ -83,6 +88,11 @@ router.get('/api/animationMadThreeD',async function(ctx,next){
   // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
   console.log(animation.animationMadThreeD)
   ctx.body = animation.animationMadThreeD
+})
+router.get('/api/animationMadThreeDPhb',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationMadThreeDPhb)
+  ctx.body = animation.animationMadThreeDPhb
 })
 router.get('/api/animationMadThreeDTwo',async function(ctx,next){
   // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')

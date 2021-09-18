@@ -79,6 +79,30 @@ let animationMadThreeDTwo = [
     {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew10.jpg',title:'【钟离/公子MMD】我会带你 前往那混乱的舞台♢宵宵古今♢',urls:'https://b23.tv/BV1rQ4y1k74A'},
     {src:'http://localhost:4000/images/animationMAD3D2/animationMAD3DNew/animationMAD3DNew11.jpg',title:'【崩坏3MMD】符宝蹦迪',urls:'https://b23.tv/BV1Sh411p7Bf'},
 ]
+let animationMadAmvPhb = [
+    {title:'最近火起来的这首《若把你》，是否进入了你的歌单？！',urls:'https://www.bilibili.com/video/BV19h411H7ik?spm_id_from=333.5.0.0'},
+    {title:'“他在我心上刮起了台风，卷起一片草木接着下了雨”',urls:'https://www.bilibili.com/video/BV1uh411p7JA?spm_id_from=333.5.0.0'},
+    {title:'【NARUTO】这 孩 子 是 我 看 着 长 大 的',urls:'https://www.bilibili.com/video/BV1Qh411p7jQ?spm_id_from=333.5.0.0'},
+    {title:'“我只是想被人承认罢了”',urls:'https://www.bilibili.com/video/BV1JP4y1h7Ji?spm_id_from=333.5.0.0'},
+    {title:'“没有很多事放不下，只不过是有点累”',urls:'https://www.bilibili.com/video/BV1Mg411c7H8?spm_id_from=333.5.0.0'},
+    {title:'都给我看好了，什么才是动漫界的巅峰！',urls:'https://www.bilibili.com/video/BV14Q4y1r7Yz?spm_id_from=333.5.0.0'},
+    {title:'小姑娘，我来为你讲述……“曾经”',urls:'https://www.bilibili.com/video/BV1JQ4y1r7y9?spm_id_from=333.5.0.0'},
+    {title:'那个不败的男人',urls:'https://www.bilibili.com/video/BV1j44y1b7fJ?spm_id_from=333.5.0.0'},
+    {title:'【关于我转生变成史莱姆这档事】我印象中的利姆露',urls:'https://www.bilibili.com/video/BV1qq4y1N7kB?spm_id_from=333.5.0.0'},
+    {title:'如今我不再是配角，而是战场的主宰！鼬，你是拥有一切的天才，而我从一开始，就一无所有！',urls:'https://www.bilibili.com/video/BV1M341127A4?spm_id_from=333.5.0.0'},
+]
+let animationMadThreeDPhb = [
+    {title:'🤤点一份王小美打包带走',urls:'https://www.bilibili.com/video/BV1Hf4y1n7ow?spm_id_from=333.5.0.0'},
+    {title:'【jojo动画】究 极 生 物 SPW',urls:'https://www.bilibili.com/video/BV1Bq4y1N7h9?spm_id_from=333.5.0.0'},
+    {title:'自制动画,拆家能手燕双鹰来了,中国队长VS美国队长',urls:'https://www.bilibili.com/video/BV1hf4y1w7J3?spm_id_from=333.5.0.0'},
+    {title:'【星瞳】百舰达成！星瞳小屋初体验（直播剪辑）',urls:'https://www.bilibili.com/video/BV1Y34y1Q7Br?spm_id_from=333.5.0.0'},
+    {title:'【原神动画短片】真假可莉',urls:'https://www.bilibili.com/video/BV1Qv411w7MV?spm_id_from=333.5.0.0'},
+    {title:'~梅 博 士 梅 比 乌 斯~',urls:'https://www.bilibili.com/video/BV1Ph411p7FA?spm_id_from=333.5.0.0'},
+    {title:'【我的世界动画】这个东西，让狼妹妹变得特别精神！',urls:'https://www.bilibili.com/video/BV1Af4y1P7kX?spm_id_from=333.5.0.0'},
+    {title:'达达利亚 - ◆上瘾 ◆[A]ddiction.',urls:'https://www.bilibili.com/video/BV16Q4y1r7Rq?spm_id_from=333.5.0.0'},
+    {title:'【原神MMD】永恒与离别，喜悦与哀愁[雷电将军·影‖EDEN]',urls:'https://www.bilibili.com/video/BV1Ab4y1m7bw?spm_id_from=333.5.0.0'},
+    {title:'【红/米/C/猫/卡】热爱105°C的你',urls:'https://www.bilibili.com/video/BV1j44y1b7iF?spm_id_from=333.5.0.0'},
+]
 
 
 
@@ -116,7 +140,9 @@ module.exports = {
     animationSto: animationSto,
     animationCar: animationCar,
     animationMadAmv: animationMadAmv,
+    animationMadAmvPhb: animationMadAmvPhb,
     animationMadAmvTwo: animationMadAmvTwo,
     animationMadThreeD: animationMadThreeD,
     animationMadThreeDTwo: animationMadThreeDTwo,
+    animationMadThreeDPhb: animationMadThreeDPhb,
 }

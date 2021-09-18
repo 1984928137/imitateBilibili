@@ -92,11 +92,11 @@
                     <el-tabs class="tabsDiv" >
                         <el-tab-pane label="新动态" class="" ><div class="liveLineUl">
                         <ul>
-                            <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
-                            <li v-for="(item,index) in ulNum" :key="index" >
+                            
+                            <li v-for="(item,index) in animationMadAmv" :key="index" >
                                 <div class="userView">
-                                    <router-link to="">
-                                        <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                    <router-link :to="item.urls">
+                                        <img :src="item.src" alt="" >
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
@@ -105,7 +105,7 @@
                                 <div class="userTab">
                                    
                                     <div>
-                                        <span class="userTitle">大概是德国</span>
+                                        <span class="userTitle">{{item.title}}</span>
                                         <!-- 用户标题 -->
                                     </div>
                                 </div>
@@ -113,7 +113,28 @@
                         </ul>
                         </div>
                         </el-tab-pane>
-                        <el-tab-pane label="最新投稿"><div>周一</div> </el-tab-pane>
+                        <el-tab-pane label="最新投稿"><div class="liveLineUl">
+                        <ul>
+                            
+                            <li v-for="(item,index) in animationMadAmvTwo" :key="index" >
+                                <div class="userView">
+                                    <router-link :to="item.urls">
+                                        <img :src="item.src" alt="" >
+                                    </router-link>
+                                    <!-- <span class="viewIcon">观看人数图标</span> -->
+                                    <!-- <span class="viewNumber">观看人数</span> -->
+                                        <!-- 观看人数 -->
+                                </div>
+                                <div class="userTab">
+                                   
+                                    <div>
+                                        <span class="userTitle">{{item.title}}</span>
+                                        <!-- 用户标题 -->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        </div></el-tab-pane>
                         
                         
                     </el-tabs>
@@ -130,19 +151,19 @@
                         <el-tabs class="TabsDiv" >
                             <el-tab-pane label="全部" class="" ><div class="liveLineUlTwo">
                             <ul>
-                                <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
-                                <li v-for="(item,index) in ulNum" :key="index" >
+                               
+                                <li v-for="(item,index) in animationMadAmvPhb" :key="index" >
                                     <span>{{index+1}}</span>
                                     <div class="userView">
-                                        <router-link to="">
-                                            <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                        <router-link :to="item.urls">
+                                            <img :src="item.src" alt="" >
                                         </router-link>
                                             <!-- 观看人数 -->
                                     </div>
                                     <div class="userTab">
                                     
                                         <div>
-                                            <span class="userTitle">大概是德国</span>
+                                            <span class="userTitle">{{item.title}}</span>
                                             <!-- 用户标题 -->
                                         </div>
                                     </div>
@@ -150,7 +171,27 @@
                             </ul>
                             </div>
                             </el-tab-pane>
-                            <el-tab-pane label="原创"><div>周一</div> </el-tab-pane>
+                            <el-tab-pane label="原创"><div class="liveLineUlTwo">
+                            <ul>
+                               
+                                <li v-for="(item,index) in animationMadAmvPhb" :key="index" >
+                                    <span>{{index+1}}</span>
+                                    <div class="userView">
+                                        <router-link :to="item.urls">
+                                            <img :src="item.src" alt="" >
+                                        </router-link>
+                                            <!-- 观看人数 -->
+                                    </div>
+                                    <div class="userTab">
+                                    
+                                        <div>
+                                            <span class="userTitle">{{item.title}}</span>
+                                            <!-- 用户标题 -->
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div></el-tab-pane>
                             
                             
                         </el-tabs>
@@ -171,11 +212,11 @@
                     <el-tabs class="tabsDiv" >
                         <el-tab-pane label="新动态" class="" ><div class="liveLineUl">
                         <ul>
-                            <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
-                            <li v-for="(item,index) in ulNum" :key="index" >
+                            
+                            <li v-for="(item,index) in animationMadThreeD" :key="index" >
                                 <div class="userView">
-                                    <router-link to="">
-                                        <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                    <router-link :to="item.urls">
+                                        <img :src="item.src" alt="" >
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
@@ -184,7 +225,7 @@
                                 <div class="userTab">
                                    
                                     <div>
-                                        <span class="userTitle">大概是德国</span>
+                                        <span class="userTitle">{{item.title}}</span>
                                         <!-- 用户标题 -->
                                     </div>
                                 </div>
@@ -192,7 +233,28 @@
                         </ul>
                         </div>
                         </el-tab-pane>
-                        <el-tab-pane label="最新投稿"><div>周一</div> </el-tab-pane>
+                        <el-tab-pane label="最新投稿"><div class="liveLineUl">
+                        <ul>
+                            
+                            <li v-for="(item,index) in animationMadThreeDTwo" :key="index" >
+                                <div class="userView">
+                                    <router-link :to="item.urls">
+                                        <img :src="item.src" alt="" >
+                                    </router-link>
+                                    <!-- <span class="viewIcon">观看人数图标</span> -->
+                                    <!-- <span class="viewNumber">观看人数</span> -->
+                                        <!-- 观看人数 -->
+                                </div>
+                                <div class="userTab">
+                                   
+                                    <div>
+                                        <span class="userTitle">{{item.title}}</span>
+                                        <!-- 用户标题 -->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        </div></el-tab-pane>
                         
                         
                     </el-tabs>
@@ -208,19 +270,19 @@
                         <el-tabs class="TabsDiv" >
                             <el-tab-pane label="全部" class="" ><div class="liveLineUlTwo">
                             <ul>
-                                <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
-                                <li v-for="(item,index) in ulNum" :key="index" >
+                                
+                                <li v-for="(item,index) in animationMadThreeDPhb" :key="index" >
                                     <span>{{index+1}}</span>
                                     <div class="userView">
-                                        <router-link to="">
-                                            <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                        <router-link :to="item.urls">
+                                            <img :src="item.src" alt="" >
                                         </router-link>
                                             <!-- 观看人数 -->
                                     </div>
                                     <div class="userTab">
                                     
                                         <div>
-                                            <span class="userTitle">大概是德国</span>
+                                            <span class="userTitle">{{item.title}}</span>
                                             <!-- 用户标题 -->
                                         </div>
                                     </div>
@@ -228,7 +290,27 @@
                             </ul>
                             </div>
                             </el-tab-pane>
-                            <el-tab-pane label="原创"><div>周一</div> </el-tab-pane>
+                            <el-tab-pane label="原创"><div class="liveLineUlTwo">
+                            <ul>
+                                
+                                <li v-for="(item,index) in animationMadThreeDPhb" :key="index" >
+                                    <span>{{index+1}}</span>
+                                    <div class="userView">
+                                        <router-link :to="item.urls">
+                                            <img :src="item.src" alt="" >
+                                        </router-link>
+                                            <!-- 观看人数 -->
+                                    </div>
+                                    <div class="userTab">
+                                    
+                                        <div>
+                                            <span class="userTitle">{{item.title}}</span>
+                                            <!-- 用户标题 -->
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div></el-tab-pane>
                             
                             
                         </el-tabs>
@@ -249,11 +331,11 @@
                     <el-tabs class="tabsDiv" >
                         <el-tab-pane label="新动态" class="" ><div class="liveLineUl">
                         <ul>
-                            <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                            
                             <li v-for="(item,index) in ulNum" :key="index" >
                                 <div class="userView">
                                     <router-link to="">
-                                        <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                        <img :src="item.src" alt="" >
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
@@ -262,7 +344,7 @@
                                 <div class="userTab">
                                    
                                     <div>
-                                        <span class="userTitle">大概是德国</span>
+                                        <span class="userTitle">{{item.title}}</span>
                                         <!-- 用户标题 -->
                                     </div>
                                 </div>
@@ -286,19 +368,19 @@
                         <el-tabs class="TabsDiv" >
                             <el-tab-pane label="全部" class="" ><div class="liveLineUlTwo">
                             <ul>
-                                <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                                
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
                                     <div class="userView">
                                         <router-link to="">
-                                            <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                            <img :src="item.src" alt="" >
                                         </router-link>
                                             <!-- 观看人数 -->
                                     </div>
                                     <div class="userTab">
                                     
                                         <div>
-                                            <span class="userTitle">大概是德国</span>
+                                            <span class="userTitle">{{item.title}}</span>
                                             <!-- 用户标题 -->
                                         </div>
                                     </div>
@@ -327,11 +409,11 @@
                     <el-tabs class="tabsDiv" >
                         <el-tab-pane label="新动态" class="" ><div class="liveLineUl">
                         <ul>
-                            <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                            
                             <li v-for="(item,index) in ulNum" :key="index" >
                                 <div class="userView">
                                     <router-link to="">
-                                        <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                        <img :src="item.src" alt="" >
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
@@ -340,7 +422,7 @@
                                 <div class="userTab">
                                    
                                     <div>
-                                        <span class="userTitle">大概是德国</span>
+                                        <span class="userTitle">{{item.title}}</span>
                                         <!-- 用户标题 -->
                                     </div>
                                 </div>
@@ -364,19 +446,19 @@
                         <el-tabs class="TabsDiv" >
                             <el-tab-pane label="全部" class="" ><div class="liveLineUlTwo">
                             <ul>
-                                <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                                
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
                                     <div class="userView">
                                         <router-link to="">
-                                            <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                            <img :src="item.src" alt="" >
                                         </router-link>
                                             <!-- 观看人数 -->
                                     </div>
                                     <div class="userTab">
                                     
                                         <div>
-                                            <span class="userTitle">大概是德国</span>
+                                            <span class="userTitle">{{item.title}}</span>
                                             <!-- 用户标题 -->
                                         </div>
                                     </div>
@@ -405,11 +487,11 @@
                     <el-tabs class="tabsDiv" >
                         <el-tab-pane label="新动态" class="" ><div class="liveLineUl">
                         <ul>
-                            <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                            
                             <li v-for="(item,index) in ulNum" :key="index" >
                                 <div class="userView">
                                     <router-link to="">
-                                        <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                        <img :src="item.src" alt="" >
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
@@ -418,7 +500,7 @@
                                 <div class="userTab">
                                    
                                     <div>
-                                        <span class="userTitle">大概是德国</span>
+                                        <span class="userTitle">{{item.title}}</span>
                                         <!-- 用户标题 -->
                                     </div>
                                 </div>
@@ -442,19 +524,19 @@
                         <el-tabs class="TabsDiv" >
                             <el-tab-pane label="全部" class="" ><div class="liveLineUlTwo">
                             <ul>
-                                <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                                
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
                                     <div class="userView">
                                         <router-link to="">
-                                            <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                            <img :src="item.src" alt="" >
                                         </router-link>
                                             <!-- 观看人数 -->
                                     </div>
                                     <div class="userTab">
                                     
                                         <div>
-                                            <span class="userTitle">大概是德国</span>
+                                            <span class="userTitle">{{item.title}}</span>
                                             <!-- 用户标题 -->
                                         </div>
                                     </div>
@@ -483,11 +565,11 @@
                     <el-tabs class="tabsDiv" >
                         <el-tab-pane label="新动态" class="" ><div class="liveLineUl">
                         <ul>
-                            <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                            
                             <li v-for="(item,index) in ulNum" :key="index" >
                                 <div class="userView">
                                     <router-link to="">
-                                        <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                        <img :src="item.src" alt="" >
                                     </router-link>
                                     <!-- <span class="viewIcon">观看人数图标</span> -->
                                     <!-- <span class="viewNumber">观看人数</span> -->
@@ -496,7 +578,7 @@
                                 <div class="userTab">
                                    
                                     <div>
-                                        <span class="userTitle">大概是德国</span>
+                                        <span class="userTitle">{{item.title}}</span>
                                         <!-- 用户标题 -->
                                     </div>
                                 </div>
@@ -520,19 +602,19 @@
                         <el-tabs class="TabsDiv" >
                             <el-tab-pane label="全部" class="" ><div class="liveLineUlTwo">
                             <ul>
-                                <!-- <li><video src="https://live.bilibili.com/23244237?hotRank=0" height="100" width="200"></video></li> -->
+                                
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
                                     <div class="userView">
                                         <router-link to="">
-                                            <img :src="item.src" alt="" :id="'imgId'+item.id">
+                                            <img :src="item.src" alt="" >
                                         </router-link>
                                             <!-- 观看人数 -->
                                     </div>
                                     <div class="userTab">
                                     
                                         <div>
-                                            <span class="userTitle">大概是德国</span>
+                                            <span class="userTitle">{{item.title}}</span>
                                             <!-- 用户标题 -->
                                         </div>
                                     </div>
@@ -588,6 +670,12 @@ export default {
             animationCar:[],
             animationSto:[],
             animationStoOne:[],
+            animationMadAmv:[],
+            animationMadAmvPhb:[],
+            animationMadAmvTwo:[],
+            animationMadThreeD:[],
+            animationMadThreeDTwo:[],
+            animationMadThreeDPhb:[],
             // animationStoTwo:[this.animationSto[5],this.animationSto[6],this.animationSto[7]]
         }
     },
@@ -609,6 +697,36 @@ export default {
             console.log(this.animationSto)
             this.animationStoOne = num.slice(5)
             console.log(this.animationStoOne)
+        }).catch(err=>{
+            console.log(err)
+        })
+        this.$axios.get('/animationMadAmv').then(res =>{
+            this.animationMadAmv = res.data
+        }).catch(err=>{
+            console.log(err)
+        })
+        this.$axios.get('/animationMadAmvPhb').then(res =>{
+            this.animationMadAmvPhb = res.data
+        }).catch(err=>{
+            console.log(err)
+        })
+        this.$axios.get('/animationMadAmvTwo').then(res =>{
+            this.animationMadAmvTwo = res.data
+        }).catch(err=>{
+            console.log(err)
+        })
+        this.$axios.get('/animationMadThreeD').then(res =>{
+            this.animationMadThreeD = res.data
+        }).catch(err=>{
+            console.log(err)
+        })
+        this.$axios.get('/animationMadThreeDTwo').then(res =>{
+            this.animationMadThreeDTwo = res.data
+        }).catch(err=>{
+            console.log(err)
+        })
+        this.$axios.get('/animationMadThreeDPhb').then(res =>{
+            this.animationMadThreeDPhb = res.data
         }).catch(err=>{
             console.log(err)
         })
