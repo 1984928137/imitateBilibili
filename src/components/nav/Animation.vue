@@ -154,18 +154,10 @@
                                
                                 <li v-for="(item,index) in animationMadAmvPhb" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link :to="item.urls">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
@@ -176,18 +168,10 @@
                                
                                 <li v-for="(item,index) in animationMadAmvPhb" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link :to="item.urls">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
@@ -273,19 +257,12 @@
                                 
                                 <li v-for="(item,index) in animationMadThreeDPhb" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link :to="item.urls">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
+                                    
                                 </li>
                             </ul>
                             </div>
@@ -295,18 +272,12 @@
                                 
                                 <li v-for="(item,index) in animationMadThreeDPhb" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link :to="item.urls">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
+                                    
                                     <div class="userTab">
                                     
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
@@ -371,30 +342,30 @@
                                 
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link to="">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
                             </div>
                             </el-tab-pane>
-                            <el-tab-pane label="原创"><div>周一</div> </el-tab-pane>
-                            
-                            
+                            <el-tab-pane label="原创"><div class="liveLineUlTwo">
+                            <ul>
+                                
+                                <li v-for="(item,index) in ulNum" :key="index" >
+                                    <span>{{index+1}}</span>
+                                    <div class="userTab">
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div></el-tab-pane>
                         </el-tabs>
-                    
                     <el-row>
-                        
                         <el-button  size="mini">更多<i class="el-icon-arrow-right"></i></el-button>
                     </el-row>
                     </div>
@@ -449,24 +420,28 @@
                                 
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link to="">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
                             </div>
                             </el-tab-pane>
-                            <el-tab-pane label="原创"><div>周一</div> </el-tab-pane>
+                            <el-tab-pane label="原创"><div class="liveLineUlTwo">
+                            <ul>
+                                
+                                <li v-for="(item,index) in ulNum" :key="index" >
+                                    <span>{{index+1}}</span>
+                                    <div class="userTab">
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div></el-tab-pane>
                             
                             
                         </el-tabs>
@@ -527,24 +502,28 @@
                                 
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link to="">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
                             </div>
                             </el-tab-pane>
-                            <el-tab-pane label="原创"><div>周一</div> </el-tab-pane>
+                            <el-tab-pane label="原创"><div class="liveLineUlTwo">
+                            <ul>
+                                
+                                <li v-for="(item,index) in ulNum" :key="index" >
+                                    <span>{{index+1}}</span>
+                                    <div class="userTab">
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div></el-tab-pane>
                             
                             
                         </el-tabs>
@@ -605,24 +584,28 @@
                                 
                                 <li v-for="(item,index) in ulNum" :key="index" >
                                     <span>{{index+1}}</span>
-                                    <div class="userView">
-                                        <router-link to="">
-                                            <img :src="item.src" alt="" >
-                                        </router-link>
-                                            <!-- 观看人数 -->
-                                    </div>
                                     <div class="userTab">
-                                    
-                                        <div>
-                                            <span class="userTitle">{{item.title}}</span>
-                                            <!-- 用户标题 -->
-                                        </div>
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
                                     </div>
                                 </li>
                             </ul>
                             </div>
                             </el-tab-pane>
-                            <el-tab-pane label="原创"><div>周一</div> </el-tab-pane>
+                            <el-tab-pane label="原创"><div class="liveLineUlTwo">
+                            <ul>
+                                
+                                <li v-for="(item,index) in ulNum" :key="index" >
+                                    <span>{{index+1}}</span>
+                                    <div class="userTab">
+                                        <router-link :to="item.urls">
+                                             <span class="userTitle">{{item.title}}</span>
+                                        </router-link>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div></el-tab-pane>
                             
                             
                         </el-tabs>

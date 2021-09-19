@@ -103,17 +103,87 @@ let animationMadThreeDPhb = [
     {title:'【原神MMD】永恒与离别，喜悦与哀愁[雷电将军·影‖EDEN]',urls:'https://www.bilibili.com/video/BV1Ab4y1m7bw?spm_id_from=333.5.0.0'},
     {title:'【红/米/C/猫/卡】热爱105°C的你',urls:'https://www.bilibili.com/video/BV1j44y1b7iF?spm_id_from=333.5.0.0'},
 ]
-
-
-
-
-
-
-
-
-
-
-
+let animationVoice = [ 
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【切勿模仿】渣女宝典',urls:'https://b23.tv/BV1Fz4y1f7Mk'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【Minecraft】 你好，圣诞雪人！',urls:'https://b23.tv/BV1cy4y1i7wz'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【自设当然自己配】',urls:'https://b23.tv/BV1iq4y1K7dn'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'传闻是真的，虎豹骑都是JK少女',urls:'https://b23.tv/BV1wy4y1T7HD'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'JoJo的奇妙冒险第3季/第4季 チュルリラ・チュルリラ・ダッダッダ！',urls:'https://b23.tv/BV1C34y1Q7nX'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'[女汉纸] 减肥',urls:'https://b23.tv/BV1d44y187jx'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【嘉德罗斯/MEME】万圣节的HIP',urls:'https://b23.tv/BV1uy4y187ZJ'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【手書き】王.様達でみｗなｗぎｗるｗぜ【遊☆戯☆王】',urls:'https://b23.tv/BV1q44y1C7zS'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'用牛粪体检！结果被误以为跟牛有事？',urls:'https://b23.tv/BV1Q3411q79V'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【aph/红色组】露西亚酱只会心疼王耀giegie~',urls:'https://b23.tv/BV1H64y1C7Jn'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【兔赤手书】-In Another Life',urls:'https://b23.tv/BV1vL411t7dE'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【拿法中心】Le Rouge Et Le Noir（未完成）',urls:'https://b23.tv/BV1ph411s77p'},
+]
+let animationVoiceTwo = [
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+]
+let animationVoicePhb = [
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+]
+let animationGarageKit = [
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'西玛舰队的主力军丨ROBOT魂 海军陆战队型勇士【狼牙测评】勇士M Gelgoog Marine',urls:'https://b23.tv/BV1Vf4y1P7qe'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'四驱车之间的对决(第一集)',urls:'https://b23.tv/BV1FQ4y127Hm'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'全系列！迷你超市盲球收集册冲刺专场～(ﾟoﾟ;;',urls:'https://b23.tv/BV1n341127z3'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'【凹凸咪等身大人偶】咲夜和美铃的秘密幽会……',urls:'https://b23.tv/BV1Tq4y1x7dX'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'伪电镀涂装FRS机动赛罗，增加一点成品玩具的合金感',urls:'https://b23.tv/BV1qv411w79Z'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'不为人知的“玩具”！却有你的童年！变形金刚收藏秘史【玩大的博物馆】x【模玩研习室】',urls:'https://b23.tv/BV16v411J72P'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'【穷爱玩.01】 笔涂+简单喷涂模匠魂飞翼 配色推荐&制作心得',urls:'https://b23.tv/BV1vq4y1f7yy'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'但凡有20树脂，我也不至于在桌子上玩原神',urls:'https://b23.tv/BV1tQ4y1y7Jn'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'阴阳师手游×龙魂人形社 联动款玉藻前BJD 创作鉴赏',urls:'https://b23.tv/BV1kv411w7Bn'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'【k2eizo水】最新版平成令和假面骑士TV最终形态2021',urls:'https://b23.tv/BV18U4y137Aj'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'【砌砖小哥】乐高MOC教程（包教包会）- Glock 19',urls:'https://b23.tv/BV1DT4y1P7hq'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/0.jpg',title:'这TM是佐助？这是我这辈子见得最离谱的手办了',urls:'https://b23.tv/BV1Dy4y1G7m9'},
+    
+]
+let animationGarageKitTwo = [
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+    {src:'',title:'',urls:''},
+]
+let animationGarageKitPhb = [
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+]
 
 
 

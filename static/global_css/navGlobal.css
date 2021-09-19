@@ -77,8 +77,8 @@
     /* align-items: center; */
     min-width: 870px;
     max-width: 870px;
-    max-height: 435px;
-    min-height: 435px;
+    max-height: 675px;
+    min-height: 555px;
     /* flex-wrap: wrap; */
 }
 .liveLineNav a{
@@ -121,7 +121,7 @@ position: absolute;
 .userTab{
     display: flex;
     flex-wrap: wrap;
-    max-width: 200px;
+    max-width: 290px;
 }
 .viewNumber{
         display: flex;
