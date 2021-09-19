@@ -118,18 +118,18 @@ let animationVoice = [
     {src:'bil_app/blblKoa/public/images/animationVoice/0.jpg',title:'【拿法中心】Le Rouge Et Le Noir（未完成）',urls:'https://b23.tv/BV1ph411s77p'},
 ]
 let animationVoiceTwo = [
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'某高三兽和同学的沙雕日常（4）（完结篇）',urls:'https://bili2233.cn/BV1wQ4y1k7MN'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'火影配音（仙人兜）：从一开始，我就一无所有',urls:'https://bili2233.cn/BV1ff4y1779x'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'男孩子真的知道定妆有多重要吗？',urls:'https://bili2233.cn/BV1WL4y1a7wf'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'《茶杯头》我喝我自己，个人配音',urls:'https://bili2233.cn/BV18h411p7vK'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'Samurai Champloo&Bones',urls:'https://bili2233.cn/BV14q4y1f7Xs'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'红夫人剪辑，不燃，原创是dy作者做的艾格剪辑，借此灵感',urls:'https://bili2233.cn/BV1X64y1h7Ug'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'听重金属肝出来的动画毕设',urls:'https://bili2233.cn/BV1wh411W7kq'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'两个片段结合在一起',urls:'https://bili2233.cn/BV1XU4y1w7tJ'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'火影配音！',urls:'https://bili2233.cn/BV1Ff4y1E7sM'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'【原创随笔】“如果我会画画，我一定要把你画下来。”',urls:'https://bili2233.cn/BV14Q4y1r7Xc'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'安徽宣城县市拟[那什么的宣家人]',urls:'https://bili2233.cn/BV1564y1a7B3'},
+    {src:'bil_app/blblKoa/public/images/animationVoice/animationVoiceTwo/0.jpg',title:'【某幻/单人向】XD meme',urls:'https://bili2233.cn/BV1PM4y137hu'},
 ]
 let animationVoicePhb = [
     {title:'',urls:''},
@@ -159,18 +159,18 @@ let animationGarageKit = [
     
 ]
 let animationGarageKitTwo = [
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
-    {src:'',title:'',urls:''},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'【转】田宫 Super Manta Ray 4WD 越野赛道跑！！',urls:'https://b23.tv/BV1TL4y187i2'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'mg蓝异端D型 随意分享',urls:'https://b23.tv/BV1Db4y127HM'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'万代hggto防御吉姆喷涂。',urls:'https://b23.tv/BV1Wh411p7Ho'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'【EVA】真希波大~小姐的~万代RG~8号机粉嫩喷涂制作来袭！',urls:'https://b23.tv/BV1oL411x7AT'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'花了8年拼好的千年积木，是不是打牌无敌了',urls:'https://b23.tv/BV1df4y1c7Nr'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'【酸雨战争 3.75寸 兵人评测】弘 Hiro 赛博朋克2179系列 脑花',urls:'https://b23.tv/BV14Q4y1r7zT'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'MG强袭自由的零件翅膀',urls:'https://b23.tv/BV1xQ4y1r7g2'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'闪回工作室 大超 亨利头雕 配Soapstudio',urls:'https://b23.tv/BV1aM4y1g74W'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'买买买，骑士们还不交妄想税',urls:'https://b23.tv/BV1W341127UY'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'美泰风火轮大众T1两用面包车',urls:'https://b23.tv/BV15q4y1K79p'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'日本rement食玩开箱，和悟空的寿司聚餐',urls:'https://b23.tv/BV1Kv411A7WM'},
+    {src:'bil_app/blblKoa/public/images/animationGarageKit/animationGarageKitTwo/0.jpg',title:'【vlog】上海中心比例模型展览:百代等多家模型品牌同台展出，高达和假面骑士应有尽有眼花缭乱，足够震撼',urls:'https://b23.tv/BV1f34y1Q7xK'},
 ]
 let animationGarageKitPhb = [
     {title:'',urls:''},
@@ -184,12 +184,86 @@ let animationGarageKitPhb = [
     {title:'',urls:''},
     {title:'',urls:''},
 ]
-
-
-
-
-
-
+let animationToKusatsu = [
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'今天吹的什么风啊——风双剑翠风！',urls:'https://b23.tv/BV1eb4y127rA'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'【超丝滑120帧】假面骑士刃王剑十圣刃全形态变身精彩战斗个人秀+必杀合集',urls:'https://b23.tv/BV1YL411E7q6'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'中国的铠甲——不败的中国军人（用刑天的方式打开中国军人）',urls:'https://b23.tv/BV1hq4y1S7Kr'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'【捷德奥特曼】战斗曲中文填词翻唱 Fusion Rise',urls:'https://b23.tv/BV1GV411x7vs'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'荒木输给了替身使者，怎么会做这样的梦？实诚吐槽假面骑士利维斯第2话[利维斯妙妙屋02]',urls:'https://b23.tv/BV1nf4y1w7wW'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'【极致4K/1080P修复】全年龄向的假面骑士！进来感受假面骑士ZO的魅力！《愛が止まらない》',urls:'https://b23.tv/BV17p4y1Y7DR'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'“前方万人踩点HENXIN！”',urls:'https://b23.tv/BV1Sq4y1s7vu'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'【FSD中文熟肉字幕】假面骑士revice第三集 （P2）',urls:'https://b23.tv/BV1DU4y1w7NB'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'我们重新干饭吧',urls:'https://b23.tv/BV11v411a7Cy'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'盘点新生代奥特曼大结局的限定必杀，经费燃烧有没有让你燃起来！',urls:'https://b23.tv/BV1if4y1e76K'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'平成旧十年中各骑士的口头禅&经典台词！',urls:'https://b23.tv/BV1rR4y1H7Ww'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/0.jpg',title:'假面骑士帝王剑，无可匹敌的力量！！',urls:'https://b23.tv/BV1Bf4y1n7Bp'},
+]
+let animationToKusatsuTwo = [
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'音铳剑錫音与火炎剑烈火联动汉森格蕾泰尔，不莱梅的乐队奇幻驱动书',urls:'https://b23.tv/BV1UR4y1H7R6'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'假面骑士黑兔子最帅最无情的一场',urls:'https://b23.tv/BV1jh411p7vG'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'这个视频是上期视频忘说的。',urls:'https://b23.tv/BV15P4y1h7eH'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'【1080P修复版】缓解超星神两个不定期更新大坑本作绝对每天休息时间更新一期共12期【超星神格兰赛沙-全员变身独立战斗合集版无机器对决系列】第6期：天枰赛沙',urls:'https://b23.tv/BV1Fh411W71A'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'假面骑士revice第三话字幕版',urls:'https://b23.tv/BV1ZU4y1w7SW'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'壁纸',urls:'https://b23.tv/BV1of4y1c7te'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'新城、大古：看好了新人！飞燕一号的正确驾驶方式我们只示范一次！',urls:'https://b23.tv/BV1Av411A7sh'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'【国配】特利迦奥特曼强力型国语变身音效',urls:'https://b23.tv/BV1g44y1b7BD'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'假面骑士biackrx第三集',urls:'https://b23.tv/BV1RA411F7VC'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'你们是否要把(得到一个绿宝石 )变成恐怖片吗',urls:'https://b23.tv/BV1KL41147wp'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'南京原神主题地下通道+新百谷子店',urls:'https://b23.tv/BV1Ev411A7WK'},
+    {src:'bil_app/blblKoa/public/images/animationToKusatsu/animationToKusatsuTwo/0.jpg',title:'刀剑神域剧场版预告',urls:'https://b23.tv/BV1Qv411w7np'},
+]
+let animationToKusatsuPhb = [
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+]
+let animationSynthesize = [
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'多啦A梦我看你踏马就是在刁难我胖虎！',urls:'https://b23.tv/BV1WX4y1N79e'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'夏厨们有过送女孩子回家的经历吗/しゃ厨は女の子を家まで送る経験ありますか',urls:'https://b23.tv/BV1k3411B7zz'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'【预告】贝拉个人单曲《Shiny Dancer》',urls:'https://b23.tv/BV1HU4y1N754'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'生长竞赛',urls:'https://b23.tv/BV16Q4y1173d'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'前方核能！动漫里血赚不亏的名场面！',urls:'https://b23.tv/BV1Dy4y1379Q'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'【鬼灭之刃】第二季  一口气看完鬼灭之刃的所有内容，是什么感觉。（合集系列）看过的小伙伴可以打卡略过。',urls:'https://b23.tv/BV1rf4y1D78Q'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'【宝石之国】Broken Hero',urls:'https://b23.tv/BV1mV411s7CV'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'【自我介绍歌 熟肉】新人VUPPER紫乃莱拉 自己作词【bilibili史上首次！通过WACTORbilibili合作的新人Vtuber】',urls:'https://b23.tv/BV1kb4y1z7k7'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'问一下这是什么动漫(|| ﾟДﾟ)？',urls:'https://b23.tv/BV1Pb4y127Es'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'【游戏王】火力游戏王，快住手，这不是在打牌！ 青春之火',urls:'https://b23.tv/BV1KP4y1Y7n8'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'虽然我不懂三国但我真的是语文课代表啊！！！',urls:'https://b23.tv/BV1wv411A7Cv'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/0.jpg',title:'【熟肉】一个小时切换一个性格的小姐姐你喜欢吗 圆满解决！阎魔酱',urls:'https://b23.tv/BV1LQ4y1y7X9'},
+]
+let animationSynthesizeTwo = [
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】老公要从娃娃抓起！《难以忘怀》',urls:'https://b23.tv/BV1hM4y1G7p2'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】"再敢跑，我就打断你的腿"《红色的糖果》',urls:'https://b23.tv/BV1hM4y1G7EW'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】"我要等多久，你才会带我回家"《疯子们》',urls:'https://b23.tv/BV1TP4y1Y7cA'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【はるちゃん熟肉/音声】平时很强势的女友被我一转攻势捆住后',urls:'https://b23.tv/BV1G64y1a7gR'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'圣斗士星矢98：星矢潜入海底，海斗士vs圣斗士，圣战再度展开？',urls:'https://b23.tv/BV1oU4y1w7dR'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【海贼 黑胡子④】希腊神话有关！？黑胡子和古代兵器的伏笔！！',urls:'https://b23.tv/BV1sU4y1N7et'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】扯领带？多少有点暧昧哦《香草的味道》',urls:'https://b23.tv/BV1TU4y1N7m3'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'海贼王：凯多之女大和的真实实力如何？',urls:'https://b23.tv/BV1mb4y127YF'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】"今天能成全一下老师吗？"《同情的形态》',urls:'https://b23.tv/BV12q4y1T7KR'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】好男人都和好男人在一起了《kiss定律》',urls:'https://b23.tv/BV1Ag411c7pY'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【漫画】受这手不老实,专攻老攻下三路《受难曲》',urls:'https://b23.tv/BV1vL411t7va'},
+    {src:'bil_app/blblKoa/public/images/animationSynthesize/animationSynthesizeTwo/0.jpg',title:'【转生恶役/神兵小将/踩点向】猴王与后宫团追着梦的光点',urls:'https://b23.tv/BV1Hf4y1n741'},
+]
+let animationSynthesizePhb = [
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+    {title:'',urls:''},
+]
 
 
 
@@ -215,4 +289,16 @@ module.exports = {
     animationMadThreeD: animationMadThreeD,
     animationMadThreeDTwo: animationMadThreeDTwo,
     animationMadThreeDPhb: animationMadThreeDPhb,
+    animationVoice: animationVoice,
+    animationVoiceTwo: animationVoiceTwo,
+    animationVoicePhb: animationVoicePhb,
+    animationGarageKit: animationGarageKit,
+    animationGarageKitTwo: animationGarageKitTwo,
+    animationGarageKitPhb: animationGarageKitPhb,
+    animationToKusatsu: animationToKusatsu,
+    animationToKusatsuTwo: animationToKusatsuTwo,
+    animationToKusatsuPhb: animationToKusatsuPhb,
+    animationSynthesize: animationSynthesize,
+    animationSynthesizeTwo: animationSynthesizeTwo,
+    animationSynthesizePhb: animationSynthesizePhb,
 }

@@ -1,5 +1,5 @@
 const router = require('koa-router')()
-let animation = require('../module/data.js')
+let animation = require('../module/animationData.js')
 const axios = require('axios')
 const mysqlQuery = require('../module/query')
 
