@@ -1,5 +1,6 @@
 const router = require('koa-router')()
 let animation = require('../module/animationData.js')
+let music = require('../module/musicData.js')
 const axios = require('axios')
 const mysqlQuery = require('../module/query')
 
@@ -98,6 +99,66 @@ router.get('/api/animationMadThreeDTwo',async function(ctx,next){
   // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
   console.log(animation.animationMadThreeDTwo)
   ctx.body = animation.animationMadThreeDTwo
+})
+router.get('/api/animationVoice',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationVoice)
+  ctx.body = animation.animationVoice
+})
+router.get('/api/animationVoiceTwo',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationVoiceTwo)
+  ctx.body = animation.animationVoiceTwo
+})
+router.get('/api/animationVoicePhb',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationVoicePhb)
+  ctx.body = animation.animationVoicePhb
+})
+router.get('/api/animationGarageKit',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationGarageKit)
+  ctx.body = animation.animationGarageKit
+})
+router.get('/api/animationGarageKitTwo',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationGarageKitTwo)
+  ctx.body = animation.animationGarageKitTwo
+})
+router.get('/api/animationGarageKitPhb',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationGarageKitPhb)
+  ctx.body = animation.animationGarageKitPhb
+})
+router.get('/api/animationToKusatsu',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationToKusatsu)
+  ctx.body = animation.animationToKusatsu
+})
+router.get('/api/animationToKusatsuTwo',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationToKusatsuTwo)
+  ctx.body = animation.animationToKusatsuTwo
+})
+router.get('/api/animationToKusatsuPhb',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationToKusatsuPhb)
+  ctx.body = animation.animationToKusatsuPhb
+})
+router.get('/api/animationSynthesize',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationSynthesize)
+  ctx.body = animation.animationSynthesize
+})
+router.get('/api/animationSynthesizeTwo',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationSynthesizeTwo)
+  ctx.body = animation.animationSynthesizeTwo
+})
+router.get('/api/animationSynthesizePhb',async function(ctx,next){
+  // let animeData = await axios.get('https://api.bilibili.com/pgc/web/follow/list?season_type=1&ps=12&pn=1')
+  console.log(animation.animationSynthesizePhb)
+  ctx.body = animation.animationSynthesizePhb
 })
 
 module.exports = router

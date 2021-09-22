@@ -888,10 +888,10 @@ export default {
             ],
             carouselNum: [
                 {src:require('../../assets/blblImgSl/dh5.jpg')},
-                {src:'https://img1.baidu.com/it/u=3230716594,4179920638&fm=26&fmt=auto&gp=0.jpg'},
-                {src:'https://img1.baidu.com/it/u=3230716594,4179920638&fm=26&fmt=auto&gp=0.jpg'},
-                {src:'https://img1.baidu.com/it/u=3230716594,4179920638&fm=26&fmt=auto&gp=0.jpg'},
-                {src:'https://img1.baidu.com/it/u=3230716594,4179920638&fm=26&fmt=auto&gp=0.jpg'},
+                {src:require('../../assets/blblImgSl/dh5.jpg')},
+                {src:require('../../assets/blblImgSl/dh5.jpg')},
+                {src:require('../../assets/blblImgSl/dh5.jpg')},
+                {src:require('../../assets/blblImgSl/dh5.jpg')},
             ],
             ulNum:[
                 {id:'One',src:'https://img2.baidu.com/it/u=2110377421,3160366547&fm=26&fmt=auto&gp=0.jpg'},
@@ -904,8 +904,7 @@ export default {
             animationNav:[],
             animationCar:[],
             animationSto:[],
-            animationStoOne:[this.animationSto[0],this.animationSto[1],this.animationSto[2],this.animationSto[3],this.animationSto[4]],
-            animationStoTwo:[this.animationSto[5],this.animationSto[6],this.animationSto[7]]
+            animationStoOne:[],
         }
     },
     created() {
