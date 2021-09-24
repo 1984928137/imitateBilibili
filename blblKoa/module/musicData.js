@@ -205,7 +205,7 @@ let musicMV = [
     {src:"bil_app/blblKoa/public/images/musicMV/0.jpg",title:"【Reol】 「白夜」(白夜極光オリジナルアニメ・ヴァージョン)",urls:"https://b23.tv/BV1yf4y187Fh"},
  
 ]
-let musicMVTWo = [
+let musicMVTwo = [
     {src:"bil_app/blblKoa/public/images/musicMV/musicMVTwo/0.jpg",title:"许艺娜《Happiness》",urls:"https://b23.tv/BV1bf4y1E7qi"},
     {src:"bil_app/blblKoa/public/images/musicMV/musicMVTwo/0.jpg",title:"日向坂46『夢は何歳まで？』",urls:"https://b23.tv/BV1c44y1873t"},
     {src:"bil_app/blblKoa/public/images/musicMV/musicMVTwo/0.jpg",title:"[Official Music Video] Perfume 「ポリゴンウェイヴ」官方繁体中字版",urls:"https://b23.tv/BV1Yf4y1w7cJ"},
@@ -405,3 +405,33 @@ let musicVocaloidPhb = [
     {src:"",title:"",urls:""},
     {src:"",title:"",urls:""},
 ]
+
+
+
+module.exports = {
+    
+    musicCoverVersion: musicCoverVersion,
+    musicCoverVersionTwo: musicCoverVersionTwo,
+    musicCoverVersionPhb: musicCoverVersionPhb,
+    musicElectro_tone: musicElectro_tone,
+    musicElectro_toneTwo: musicElectro_toneTwo,
+    musicElectro_tonePhb: musicElectro_tonePhb,
+    musicLive: musicLive,
+    musicLiveTwo: musicLiveTwo,
+    musicLivePhb: musicLivePhb,
+    musicMV: musicMV,
+    musicMVTwo: musicMVTwo,
+    musicMVPhb: musicMVPhb,
+    musicOriginal: musicOriginal,
+    musicOriginalTwo: musicOriginalTwo,
+    musicOriginalPhb: musicOriginalPhb,
+    musicPlay: musicPlay,
+    musicPlayTwo: musicPlayTwo,
+    musicPlayPhb: musicPlayPhb,
+    musicSynthesize: musicSynthesize,
+    musicSynthesizeTwo: musicSynthesizeTwo,
+    musicSynthesizePhb: musicSynthesizePhb,
+    musicVocaloid: musicVocaloid,
+    musicVocaloidTwo: musicVocaloidTwo,
+    musicVocaloidPhb: musicVocaloidPhb,
+}
